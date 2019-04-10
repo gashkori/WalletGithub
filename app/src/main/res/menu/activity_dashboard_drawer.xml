@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" >
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/nav_Payments"
+            android:icon="@drawable/payment_icon"
+            android:title="Payments" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+        <item
+            android:id="@+id/nav_Receipts"
+            android:icon="@drawable/recipt_icon"
+            android:title="Receipts" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group3">
+        <item
+            android:id="@+id/nav_Expenses"
+            android:icon="@drawable/expense_icon"
+            android:title="Expenses" />
+    </group>
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group4">
+    <item android:title="Administrator">
+        <menu>
+            <group android:checkableBehavior="single"
+                android:id="@+id/group5">
+            <item
+                android:id="@+id/nav_Accounts"
+                android:icon="@drawable/account_icon"
+                android:title="Accounts" />
+            </group>
+            <group android:checkableBehavior="single"
+                android:id="@+id/group6">
+            <item
+                android:id="@+id/nav_Products"
+                android:icon="@drawable/product_icon"
+                android:title="Products" />
+            </group>
+            <group android:checkableBehavior="single"
+                android:id="@+id/group7">
+            <item
+                android:id="@+id/nav_Budget"
+                android:icon="@drawable/budget_icon"
+                android:title="Budget" />
+            </group>
+        </menu>
+    </item>
+    </group>
+</menu>
